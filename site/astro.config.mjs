@@ -13,7 +13,7 @@ const sidebar = fs.existsSync(sidebarPath)
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://eanzhao-os.github.io',
+	site: 'https://docs.xnoetic.com',
 	base: '/mattpocock-skills-cn',
 	integrations: [
 		starlight({
@@ -33,11 +33,11 @@ export default defineConfig({
 				{
 					icon: 'github',
 					label: 'GitHub',
-					href: 'https://github.com/eanzhao-os/mattpocock-skills-cn',
+					href: 'https://github.com/xnoetic/mattpocock-skills-cn',
 				},
 			],
 			editLink: {
-				baseUrl: 'https://github.com/eanzhao-os/mattpocock-skills-cn/edit/main/',
+				baseUrl: 'https://github.com/xnoetic/mattpocock-skills-cn/edit/main/',
 			},
 			lastUpdated: true,
 			customCss: ['./src/styles/custom.css'],
